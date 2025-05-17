@@ -1,0 +1,31 @@
+##Langchian Core
+langchain
+langchain-Core
+langchain_community
+
+
+
+
+##Google gemenai Intregaration 
+langchain-google-genai
+google-generativeai
+
+
+
+
+##Environment variable
+python-dotenv
+
+
+## machine learning utilisites 
+
+numpy
+scikit-learn
+
+
+#streamlit
+streamlit
+
+pypdf
+
+pydantic
