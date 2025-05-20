@@ -23,3 +23,5 @@ The hardware is great, but the software feels bloated. There are too many pre-in
 # Print the result and its type
 print(result)
 # print(type(result))
+
+

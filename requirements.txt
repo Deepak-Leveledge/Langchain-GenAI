@@ -30,4 +30,10 @@ pypdf
 
 pydantic
 
-faiss
+# faiss
+
+youtube-transcript-api
+faiss-cpu
+tiktoken
+
+duckduckgo-search

@@ -3,6 +3,7 @@ from langchain_core.messages import HumanMessage
 
 from langchain_core.embeddings import OpenAIEmbeddings
 
+
 ## message place holder is used to  add the previous converstaion of human and ai  in the new converstaion due to that ai will not forgate what user is asking 
 ## chat template
 
