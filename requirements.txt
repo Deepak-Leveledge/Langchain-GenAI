@@ -29,3 +29,5 @@ streamlit
 pypdf
 
 pydantic
+
+faiss
