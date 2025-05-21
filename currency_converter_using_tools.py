@@ -6,6 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 ## creating Tools 
 def get_conversion_factor(base_currency:str ,target_currency:str)->float:
+
     """
     fucntion fetches the currency conversion factor between base and targert currenct """
 
@@ -13,6 +14,10 @@ def get_conversion_factor(base_currency:str ,target_currency:str)->float:
 
 
     response=  requests.get(url)
+
+
+    if response.json()["result"]== "error":
+        raise ValueError("Invalid API KEY")
 
     return response.json()
 
